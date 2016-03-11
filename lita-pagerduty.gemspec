@@ -7,7 +7,6 @@ Gem::Specification.new do |spec|
   spec.summary       = 'A Lita handler to interact with PagerDuty'
   spec.homepage      = 'http://github.com/esigler/lita-pagerduty'
   spec.license       = 'MIT'
-  spec.metadata      = { 'lita_plugin_type' => 'handler' }
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   spec.executables   = spec.files.grep(%r{^bin\/}) { |f| File.basename(f) }
